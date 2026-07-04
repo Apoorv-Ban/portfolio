@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Apoorv Bandyopadhyay - Cybersecurity Consultant</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-fixed": "#dae2fd",
+                        "on-tertiary": "#3a3000",
+                        "secondary": "#bec6e0",
+                        "surface-container-highest": "#273647",
+                        "on-tertiary-container": "#705d00",
+                        "primary-fixed-dim": "#00dbe9",
+                        "on-primary-container": "#006970",
+                        "on-error-container": "#ffdad6",
+                        "inverse-primary": "#006970",
+                        "tertiary-fixed-dim": "#e9c400",
+                        "on-primary-fixed": "#002022",
+                        "on-primary": "#00363a",
+                        "on-background": "#d4e4fa",
+                        "error-container": "#93000a",
+                        "on-secondary-container": "#adb4ce",
+                        "tertiary": "#fff5de",
+                        "primary-container": "#00f0ff",
+                        "primary": "#dbfcff",
+                        "background": "#051424",
+                        "error": "#ffb4ab",
+                        "inverse-surface": "#d4e4fa",
+                        "tertiary-container": "#ffd700",
+                        "inverse-on-surface": "#233143",
+                        "on-primary-fixed-variant": "#004f54",
+                        "on-surface-variant": "#b9cacb",
+                        "outline-variant": "#3b494b",
+                        "surface-container-low": "#0d1c2d",
+                        "on-secondary-fixed": "#131b2e",
+                        "surface-dim": "#051424",
+                        "secondary-fixed-dim": "#bec6e0",
+                        "surface-tint": "#00dbe9",
+                        "surface-bright": "#2c3a4c",
+                        "on-error": "#690005",
+                        "surface": "#051424",
+                        "surface-container": "#122131",
+                        "on-tertiary-fixed-variant": "#544600",
+                        "surface-container-lowest": "#010f1f",
+                        "surface-container-high": "#1c2b3c",
+                        "on-secondary-fixed-variant": "#3f465c",
+                        "surface-variant": "#273647",
+                        "on-surface": "#d4e4fa",
+                        "tertiary-fixed": "#ffe16d",
+                        "outline": "#849495",
+                        "on-tertiary-fixed": "#221b00",
+                        "primary-fixed": "#7df4ff",
+                        "on-secondary": "#283044",
+                        "secondary-container": "#3f465c"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "unit": "8px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "40px",
+                        "container-max": "1280px"
+                    },
+                    "fontFamily": {
+                        "button": ["Hanken Grotesk"],
+                        "headline-xl": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "label-sm": ["JetBrains Mono"]
+                    },
+                    "fontSize": {
+                        "button": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+                        "headline-xl": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { background-color: #051424; color: #d4e4fa; font-family: 'Hanken Grotesk', sans-serif; }
+        .glass-panel { background: rgba(13, 28, 45, 0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(132, 148, 149, 0.15); }
+        .glow-cyan { box-shadow: 0 0 15px rgba(0, 240, 255, 0.15); }
+        .text-glow { text-shadow: 0 0 10px rgba(0, 240, 255, 0.3); }
+        .gradient-text { background: linear-gradient(90deg, #dbfcff 0%, #00f0ff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card-hover:hover { border-color: rgba(0, 240, 255, 0.4); transform: translateY(-2px); transition: all 0.3s ease; box-shadow: 0 8px 30px rgba(0, 240, 255, 0.05); }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col relative overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Nav -->
+<nav class="fixed top-0 w-full z-50 bg-surface-container-low/80 backdrop-blur-md border-b border-outline-variant/30">
+<div class="flex justify-between items-center px-margin-desktop py-4 max-w-container-max mx-auto">
+<a class="font-headline-lg text-headline-lg font-bold text-primary tracking-tighter" href="#">A. BANDYOPADHYAY</a>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant hover:text-primary transition-colors font-button text-button" href="#expertise">Expertise</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-button text-button" href="#experience">Experience</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-button text-button" href="#engagements">Engagements</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-button text-button" href="#credentials">Credentials</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-button text-button" href="#contact">Contact</a>
+<button class="bg-primary-container text-on-primary-container px-6 py-2 rounded font-button text-button hover:bg-primary transition-colors glow-cyan flex items-center gap-2">
+                    Download Resume <span class="material-symbols-outlined" style="font-size: 18px;">download</span>
+</button>
+</div>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<main class="flex-grow pt-32 pb-24">
+<!-- Hero Section -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-32 relative">
+<div class="absolute -top-40 -right-40 w-96 h-96 bg-primary-container/5 rounded-full blur-[100px] -z-10"></div>
+<div class="flex flex-col-reverse lg:flex-row items-center gap-gutter lg:gap-16">
+<div class="flex-1 space-y-8">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-surface-container-high border border-outline-variant/50">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">CYBERSECURITY CONSULTANT</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface max-w-3xl leading-tight">
+                        Securing Applications, Infrastructure &amp; <span class="gradient-text">Critical Environments.</span>
+</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl text-lg leading-relaxed">
+                        Cybersecurity Consultant specializing in Penetration Testing, Red Teaming, Threat Hunting, DFIR, and OT/ICS Security. Helping organizations identify risks, investigate threats, and strengthen their security posture.
+                    </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<a class="bg-primary-container text-on-primary-container px-8 py-3 rounded font-button text-button hover:bg-primary transition-colors glow-cyan" href="#engagements">
+                            View My Work
+                        </a>
+<a class="border border-outline-variant text-on-surface hover:border-primary-container hover:text-primary-container px-8 py-3 rounded font-button text-button transition-colors flex items-center gap-2" href="#">
+                            Download Resume <span class="material-symbols-outlined" style="font-size: 18px;">download</span>
+</a>
+</div>
+<div class="pt-8 border-t border-outline-variant/30 flex flex-wrap gap-6 opacity-70">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1"><span class="material-symbols-outlined" style="font-size:16px">verified</span> CRTP</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1"><span class="material-symbols-outlined" style="font-size:16px">verified</span> PNPT</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1"><span class="material-symbols-outlined" style="font-size:16px">verified</span> CEH Practical</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1"><span class="material-symbols-outlined" style="font-size:16px">verified</span> eCTHP</span>
+</div>
+</div>
+<div class="lg:w-5/12 flex justify-center lg:justify-end relative">
+<div class="absolute inset-0 bg-gradient-to-tr from-primary-container/10 to-transparent rounded-lg transform translate-x-4 translate-y-4 -z-10 blur-xl"></div>
+<img alt="Apoorv Bandyopadhyay Professional Portrait" class="w-full max-w-md rounded-lg object-cover shadow-2xl border border-outline-variant/30 filter grayscale-[20%] contrast-125" src="https://lh3.googleusercontent.com/aida/AP1WRLuMCfey_M56LvB6KxBKEjmSF5vClnGOkq05mddriLSim9mPJKWhYzXjqWA3S84dCMretQmFJheIL6NNKgHBNweD7GAuR0Q-5IwQ7JQSyfbPVTLQxazFrnOp0OdXFL6ZVk_vhxZj5T7OoypoiYBYjrTsFOelUkEBipZvgAAqnWchF8YMOMLk4uRBiMQddJ6OZBh32DHRvVWiE1rYYlRP9Aac9REvmYgBuFGm2JQRYBCzetKxwH--XJbWZg"/>
+</div>
+</div>
+</section><section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-32" id="expertise">
+<div class="mb-12">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Strategic Attack Surface</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">A comprehensive security framework mapped against the modern threat landscape, ensuring resilience across every stage of the attack lifecycle.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 relative lg:grid-cols-3">
+<!-- Stage 1 -->
+<div class="glass-panel p-6 rounded-lg border border-outline-variant/30 flex flex-col gap-4"><div class="flex items-center gap-2"><span class="text-primary font-label-sm text-label-sm opacity-50">01</span><h3 class="font-button text-button text-primary uppercase tracking-widest">Application Security</h3></div><ul class="space-y-3"><li class="flex items-start gap-2 text-on-surface-variant font-body-md text-sm"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Web Application VAPT</li><li class="flex items-start gap-2 text-on-surface-variant font-body-md text-sm"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> API Security</li></ul></div>
+<!-- Stage 2 -->
+<div class="glass-panel p-6 rounded-lg border border-outline-variant/30 flex flex-col gap-4"><div class="flex items-center gap-2"><span class="text-primary font-label-sm text-label-sm opacity-50">02</span><h3 class="font-button text-button text-primary uppercase tracking-widest">Network Security</h3></div><ul class="space-y-3"><li class="flex items-start gap-2 text-on-surface-variant font-body-md text-sm"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Network VAPT</li><li class="flex items-start gap-2 text-on-surface-variant font-body-md text-sm"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Active Directory Security</li></ul></div>
+<!-- Stage 3 -->
+<div class="glass-panel p-6 rounded-lg border border-outline-variant/30 flex flex-col gap-4"><div class="flex items-center gap-2"><span class="text-primary font-label-sm text-label-sm opacity-50">03</span><h3 class="font-button text-button text-primary uppercase tracking-widest">Offensive Security</h3></div><ul class="space-y-3"><li class="flex items-start gap-2 text-on-surface-variant font-body-md text-sm"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Red Team Operations</li><li class="flex items-start gap-2 text-on-surface-variant font-body-md text-sm"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Adversarial Emulation</li></ul></div>
+<!-- Stage 4 -->
+<div class="glass-panel p-6 rounded-lg border border-outline-variant/30 flex flex-col gap-4"><div class="flex items-center gap-2"><span class="text-primary font-label-sm text-label-sm opacity-50">04</span><h3 class="font-button text-button text-primary uppercase tracking-widest">Defensive Security</h3></div><ul class="space-y-3"><li class="flex items-start gap-2 text-on-surface-variant font-body-md text-sm"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Threat Hunting</li><li class="flex items-start gap-2 text-on-surface-variant font-body-md text-sm"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> DFIR</li><li class="flex items-start gap-2 text-on-surface-variant font-body-md text-sm"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Incident Investigation</li></ul></div>
+<!-- Stage 5 -->
+<div class="glass-panel p-6 rounded-lg border border-outline-variant/30 flex flex-col gap-4"><div class="flex items-center gap-2"><span class="text-primary font-label-sm text-label-sm opacity-50">05</span><h3 class="font-button text-button text-primary uppercase tracking-widest">CII/IOT Security</h3></div><ul class="space-y-3"><li class="flex items-start gap-2 text-on-surface-variant font-body-md text-sm"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> OT/ICS Security</li><li class="flex items-start gap-2 text-on-surface-variant font-body-md text-sm"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> IoT Security</li></ul></div><div class="glass-panel p-6 rounded-lg border border-outline-variant/30 flex flex-col gap-4"><div class="flex items-center gap-2"><span class="text-primary font-label-sm text-label-sm opacity-50">06</span><h3 class="font-button text-button text-primary uppercase tracking-widest">Advisory</h3></div><ul class="space-y-3"><li class="flex items-start gap-2 text-on-surface-variant font-body-md text-sm"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Security Consulting</li><li class="flex items-start gap-2 text-on-surface-variant font-body-md text-sm"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Training &amp; Mentoring</li></ul></div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant/30 py-12">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center gap-gutter">
+<div>
+<a class="font-headline-lg text-headline-lg font-bold text-primary tracking-tighter block mb-2" href="#">A. BANDYOPADHYAY</a>
+<p class="font-body-md text-body-md text-on-surface-variant">Senior Cybersecurity Consultant.</p>
+</div>
+<div class="flex gap-6">
+<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 font-button text-button" href="#">
+<span class="material-symbols-outlined">link</span> LinkedIn
+                </a>
+<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 font-button text-button" href="#">
+<span class="material-symbols-outlined">work</span> Fiverr
+                </a>
+<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2 font-button text-button" href="#">
+<span class="material-symbols-outlined">mail</span> Email
+                </a>
+</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant opacity-60">
+                © 2026 Apoorv Bandyopadhyay.
+            </div>
+</div>
+</footer>
+</body></html>

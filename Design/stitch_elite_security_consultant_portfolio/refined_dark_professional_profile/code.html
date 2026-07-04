@@ -1,0 +1,256 @@
+<!DOCTYPE html><html class="dark" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">try{
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-fixed": "#7df4ff",
+                        "surface-tint": "#00dbe9",
+                        "secondary-fixed": "#dae2fd",
+                        "on-primary": "#00363a",
+                        "surface-dim": "#051424",
+                        "surface-container-lowest": "#010f1f",
+                        "secondary-container": "#3f465c",
+                        "on-surface": "#d4e4fa",
+                        "surface-container-low": "#0d1c2d",
+                        "primary-fixed-dim": "#00dbe9",
+                        "on-error": "#690005",
+                        "on-tertiary-container": "#705d00",
+                        "on-surface-variant": "#b9cacb",
+                        "surface-container-highest": "#273647",
+                        "surface": "#051424",
+                        "on-primary-container": "#006970",
+                        "primary-container": "#00f0ff",
+                        "on-primary-fixed": "#002022",
+                        "tertiary-fixed-dim": "#e9c400",
+                        "surface-container-high": "#1c2b3c",
+                        "on-secondary": "#283044",
+                        "surface-container": "#122131",
+                        "on-tertiary-fixed-variant": "#544600",
+                        "on-secondary-container": "#adb4ce",
+                        "inverse-on-surface": "#233143",
+                        "inverse-primary": "#006970",
+                        "secondary-fixed-dim": "#bec6e0",
+                        "secondary": "#bec6e0",
+                        "on-background": "#d4e4fa",
+                        "surface-variant": "#273647",
+                        "on-tertiary-fixed": "#221b00",
+                        "on-secondary-fixed-variant": "#3f465c",
+                        "primary": "#dbfcff",
+                        "outline-variant": "#3b494b",
+                        "tertiary-fixed": "#ffe16d",
+                        "on-error-container": "#ffdad6",
+                        "on-secondary-fixed": "#131b2e",
+                        "background": "#051424",
+                        "tertiary-container": "#ffd700",
+                        "surface-bright": "#2c3a4c",
+                        "on-tertiary": "#3a3000",
+                        "on-primary-fixed-variant": "#004f54",
+                        "outline": "#849495",
+                        "inverse-surface": "#d4e4fa",
+                        "tertiary": "#fff5de",
+                        "error-container": "#93000a",
+                        "error": "#ffb4ab"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-desktop": "40px",
+                        "unit": "8px",
+                        "margin-mobile": "16px",
+                        "container-max": "1280px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-xl": ["Hanken Grotesk"],
+                        "button": ["Hanken Grotesk"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "label-sm": ["JetBrains Mono"]
+                    },
+                    "fontSize": {
+                        "headline-xl": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "button": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500" }]
+                    }
+                }
+            }
+        }
+    }catch(_e){}</script></head><body class="antialiased min-h-screen flex flex-col overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Nav -->
+<nav class="fixed top-0 w-full z-50 bg-surface-container-low/80 backdrop-blur-md border-b border-outline-variant/30">
+<div class="flex justify-between items-center px-margin-desktop py-4 max-w-container-max mx-auto">
+<a class="font-headline-lg text-headline-lg font-bold text-primary tracking-tighter" href="#">A. BANDYOPADHYAY</a>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant hover:text-primary transition-colors font-button text-button" href="#expertise">Expertise</a>
+<a class="text-primary hover:text-primary-container transition-colors font-button text-button border-b-2 border-primary pb-1" href="#experience">Experience</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-button text-button" href="#engagements">Engagements</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-button text-button" href="#credentials">Credentials</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-button text-button" href="#contact">Contact</a>
+<button class="bg-primary-container text-on-primary-container px-6 py-2 rounded font-button text-button hover:bg-primary transition-colors glow-cyan flex items-center gap-2">
+                    Download Resume <span class="material-symbols-outlined" style="font-size: 18px;">download</span>
+</button>
+</div>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<main class="flex-grow pt-32 pb-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto w-full flex flex-col gap-16">
+<!-- Summary Section -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center" id="expertise">
+<div class="lg:col-span-4 order-2 lg:order-1 flex justify-center">
+<div class="relative w-64 h-64 lg:w-80 lg:h-80 rounded-xl overflow-hidden glass-panel">
+<img alt="Apoorv Bandyopadhyay Profile" class="w-full h-full object-cover rounded-lg filter grayscale-[20%] contrast-125 hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida/AP1WRLtbi8oy8lnSem8ZHdyNGOETutDWPNi7koeXRH4DU5DugJ66skp3mvR3-KypUP4THK7qI16fzT5Qmz4RXGGqBfmBszY4aF8SdV8IlafSEPsFqqmKNj857GZntKsAcVaI-9J19gH8Kky-87ez3oLfqQ24j7HGbIHWL2D1eilU_gOgfjHBK31ZhvhQaR5qTKTgKIqPMtDuVOqKGcm5zYTn1rrYkjBHQwGCYNBPrBYauvX7k7EBfzs_GWKc4Q">
+</div>
+</div>
+<div class="lg:col-span-8 order-1 lg:order-2 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-surface-container-high border border-outline-variant/50">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">Senior Cybersecurity Consultant</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface md:hidden font-headline-lg-mobile text-headline-lg-mobile">Architecting Digital Resilience.</h1>
+<h1 class="font-headline-xl text-headline-xl text-on-surface hidden md:block">Architecting <span class="gradient-text">Digital Resilience.</span></h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl text-lg leading-relaxed">
+                    Specialized security engineer dedicated to absolute digital sovereignty. Expertise in advanced threat hunting, penetration testing, and robust infrastructure defense for enterprise environments. Balancing institutional authority with cutting-edge defensive capabilities to ensure mission-critical systems remain uncompromised.
+                </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<span class="glass-panel px-4 py-2 rounded font-label-sm text-label-sm text-on-surface border-l-2 border-primary-container">Red Teaming</span>
+<span class="glass-panel px-4 py-2 rounded font-label-sm text-label-sm text-on-surface border-l-2 border-primary-container">Threat Hunting</span>
+<span class="glass-panel px-4 py-2 rounded font-label-sm text-label-sm text-on-surface border-l-2 border-primary-container">Penetration Testing</span>
+<span class="glass-panel px-4 py-2 rounded font-label-sm text-label-sm text-on-surface border-l-2 border-primary-container">Incident Response</span>
+</div>
+</div>
+</section>
+<!-- Experience Timeline -->
+<section class="space-y-8" id="experience">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4 inline-flex items-center gap-3">
+<span class="material-symbols-outlined text-primary-container">timeline</span>
+                Professional Experience
+            </h2>
+<div class="relative border-l border-outline-variant/30 ml-4 md:ml-8 space-y-12">
+<!-- Role 1 -->
+<div class="relative pl-8 md:pl-12">
+<div class="absolute -left-[5px] top-1 w-2.5 h-2.5 bg-primary-container rounded-full glow-cyan"></div>
+<div class="glass-panel p-6 rounded-xl card-hover flex flex-col gap-4">
+<div class="flex flex-col md:flex-row justify-between md:items-center gap-2">
+<div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface text-xl">Security Analyst</h3>
+<p class="font-button text-button text-primary-container mt-1 uppercase tracking-widest">CyberSRC</p>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-high border border-outline-variant/30 px-3 py-1 rounded">2025 - Present</span>
+</div>
+<ul class="font-body-md text-body-md text-on-surface-variant space-y-3">
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Leading advanced threat hunting operations and red team simulations.</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Architecting resilient security postures for enterprise clients.</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Conducting comprehensive vulnerability assessments and remediation strategies.</li>
+</ul>
+</div>
+</div>
+<!-- Role 2 -->
+<div class="relative pl-8 md:pl-12">
+<div class="absolute -left-[5px] top-1 w-2.5 h-2.5 bg-outline rounded-full"></div>
+<div class="glass-panel p-6 rounded-xl card-hover flex flex-col gap-4">
+<div class="flex flex-col md:flex-row justify-between md:items-center gap-2">
+<div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface text-xl">Associate Security Analyst</h3>
+<p class="font-button text-button text-primary uppercase tracking-widest opacity-80">CyberSRC</p>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-high border border-outline-variant/30 px-3 py-1 rounded">2024 - 2025</span>
+</div>
+<ul class="font-body-md text-body-md text-on-surface-variant space-y-3">
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Supported incident response and SOC monitoring activities.</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Executed web application and network penetration tests.</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-primary-container" style="font-size: 16px;">check_circle</span> Developed automated security reporting workflows.</li>
+</ul>
+</div>
+</div>
+<!-- Role 3 -->
+<div class="relative pl-8 md:pl-12">
+<div class="absolute -left-[5px] top-1 w-2.5 h-2.5 bg-outline rounded-full opacity-50"></div>
+<div class="glass-panel p-6 rounded-xl card-hover flex flex-col gap-4">
+<div class="flex flex-col md:flex-row justify-between md:items-center gap-2">
+<div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface text-xl opacity-80">Apprentice</h3>
+<p class="font-button text-button text-primary uppercase tracking-widest opacity-60">Canon India</p>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-high border border-outline-variant/30 px-3 py-1 rounded opacity-80">2022 - 2023</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant opacity-80">
+                            Foundational IT infrastructure support and initial exposure to corporate security protocols and systems administration.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Credentials -->
+<section class="space-y-8" id="credentials">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4 inline-flex items-center gap-3">
+<span class="material-symbols-outlined text-primary-container">verified</span>
+                Professional Credentials
+            </h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div class="order-2 md:order-1 glass-panel p-2 rounded-xl"><div class="grid grid-cols-2 gap-4 p-4">
+    <a href="https://www.credential.net/c21a1760-a481-418a-b03a-8232ee8a477e" target="_blank" class="block transition-transform hover:scale-105">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCslxNNLNGAVDnBA0WFcjZukBPH_1HK2dmcQEAMEU6kB0FJnbpIJlCQ5bKZ_9TGmsRWhA5oIerq1fhgXbG9J97bZVZXYi8nPZHyMvND79O_b_I0M-UJ1KRk2KutmwEjQjYvmKS0vmJ6V90-4MCyddIO-ThFbJpyyI_z9DkAx98TkapV0A-5dP88Z-lve6xkGOHTbvWxMbepQCxR0aNDJ8gYjfppacektVXRAcfhj99-N9FixawRN97dqO_yYOiAuQWfMh0gXkOJhQ" alt="CRTP Badge" class="w-full h-auto rounded-lg shadow-lg">
+    </a>
+    <a href="https://certified.tcm-sec.com/0dc76920-f502-48c5-b2ed-648db1371e3a" target="_blank" class="block transition-transform hover:scale-105">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWOQlW7kIYgUBTDWk13YXaNhaQ2sw4vqhxyVbODarsmw007GPyXLdiX4ZUqC4KAg97EFtRiA85l42A8_lNxLWyBnZ3HAOoWeQmQz0oaNPsEA5dc_B2G8Wofp7xvsxe9_-Rl9qrziYoP6DTPm9reYLgAaFnyXYVdGenrW5P2TV0ME1IjFsswhUkODFCWo2fzGmic2ce5l3EJkQ_Khwn7SWCjeXkGK8WpCaLgkOIlIwAv_yJf7ZONxDrOTmUX1xXfIw662l0w1ZksQ" alt="PNPT Badge" class="w-full h-auto rounded-lg shadow-lg">
+    </a>
+    <div class="block">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2YJHyIwYg77FGszW2h7fOKbVR-FvLC4QyfdRQ9LQwif2QBaVNlexerYFIiypfaPxkWZpcYtYyaqFXKlByOGQakggg8hP0qk0huqxAlngm72izr96usyZhdt-J0AlzETHYzfBeEv3q44287EC-EFrckAcL3fVEi9B9TvncClWn_6aQxdE7TYkpugl6O9pu4r82V5hOw0hvkecpEWH0PL9P8rml4HbvNQZNMPOI1uKviSifX5P58ZPF2k4pygWXXUG65D0HH8MPyg" alt="CEH Practical Badge" class="w-full h-auto rounded-lg shadow-lg">
+    </div>
+    <a href="https://certs.ine.com/3f481059-2bd7-4ec2-a259-9d76ba906877" target="_blank" class="block transition-transform hover:scale-105">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3b1PvDOC2UDxIvuEhgc-PeL3RyLh_xx1Xx3h5ufCf_TTg3MldcqE8tMD2FPe-N7NRXNW9GbRxqF0d_rWQTZLAZWZSIgA2lZBCtybRVEcoi0xzRUnFJHMWR7nWryMqEWfghYqZnZhvVKK4qKJcW_WjzY78MMrHl-NhfDdl8v6CJVfcrLWKdt20DKM9U30R8MBZY88jNoLyt8eTadZApk2UCgWbWBGQ8Aj7KkEaC910KOMPEDMqrJV47eIM0T45gzVd1GYK2YsF0g" alt="eCTHP Badge" class="w-full h-auto rounded-lg shadow-lg">
+    </a>
+</div></div>
+<div class="order-1 md:order-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="glass-panel p-4 rounded-lg flex items-start gap-4 card-hover">
+<span class="material-symbols-outlined text-primary-container text-3xl">shield</span>
+<div>
+<h4 class="font-button text-button text-on-surface">CRTP</h4>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-1 opacity-80">Certified Red Team Professional</p>
+</div>
+</div>
+<div class="glass-panel p-4 rounded-lg flex items-start gap-4 card-hover">
+<span class="material-symbols-outlined text-primary-container text-3xl">vpn_key</span>
+<div>
+<h4 class="font-button text-button text-on-surface">PNPT</h4>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-1 opacity-80">Practical Network Penetration Tester</p>
+</div>
+</div>
+<div class="glass-panel p-4 rounded-lg flex items-start gap-4 card-hover">
+<span class="material-symbols-outlined text-primary-container text-3xl">bug_report</span>
+<div>
+<h4 class="font-button text-button text-on-surface">CEH Practical</h4>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-1 opacity-80">Certified Ethical Hacker</p>
+</div>
+</div>
+<div class="glass-panel p-4 rounded-lg flex items-start gap-4 card-hover">
+<span class="material-symbols-outlined text-primary-container text-3xl">radar</span>
+<div>
+<h4 class="font-button text-button text-on-surface">eCTHP</h4>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-1 opacity-80">Certified Threat Hunting Pro</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant/30 py-12 mt-auto">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center gap-gutter">
+<div>
+<a class="font-headline-lg text-headline-lg font-bold text-primary tracking-tighter block mb-2" href="#">A. BANDYOPADHYAY</a>
+<p class="font-body-md text-body-md text-on-surface-variant">Senior Cybersecurity Consultant.</p>
+</div>
+<div class="flex gap-6">
+&lt;</div></div></footer></body></html>
