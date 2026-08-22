@@ -67,8 +67,7 @@ export const portfolio = {
     eyebrow: "Cybersecurity Consultant",
     headline: "Securing Applications, Infrastructure & Critical Environments.",
     summary:
-      "Cybersecurity Consultant specializing in Penetration Testing, Red Teaming, Threat Hunting, DFIR, and OT/ICS Security. Helping organizations identify risks, investigate threats, and strengthen their security posture.",
-    credentials: ["CRTP", "PNPT", "CEH Practical", "eCTHP"]
+      "Cybersecurity Consultant specializing in Penetration Testing, Red Teaming, Threat Hunting, DFIR, and OT/ICS Security. Helping organizations identify risks, investigate threats, and strengthen their security posture."
   },
   expertise: [
     {
@@ -298,7 +297,7 @@ export const portfolio = {
       shortName: "PNPT",
       name: "Practical Network Penetration Tester",
       issuer: "TCM Security",
-      badgeSrc: "https://pdf.ms.credential.net/badge/image?env=production&credential=p7784wik",
+      badgeSrc: "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/112749401",
       verifyUrl: "https://www.credential.net/0dc76920-f502-48c5-b2ed-648db1371e3a"
     },
     {
@@ -313,7 +312,7 @@ export const portfolio = {
       shortName: "eCTHP",
       name: "Certified Threat Hunting Professional",
       issuer: "INE Security",
-      badgeSrc: "https://pdf.ms.credential.net/badge/image?env=production&credential=be1c9ykn",
+      badgeSrc: "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/169281340",
       verifyUrl: "https://www.credential.net/3f481059-2bd7-4ec2-a259-9d76ba906877"
     }
   ] satisfies Credential[],

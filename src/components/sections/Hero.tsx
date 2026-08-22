@@ -1,8 +1,8 @@
-import { ArrowRight, Download, ShieldCheck } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 import { portfolio } from "../../data/portfolio";
 
 export function Hero() {
-  const { hero, person } = portfolio;
+  const { hero, person, credentials } = portfolio;
 
   return (
     <section id="top" className="container-shell grid min-h-[calc(100vh-80px)] items-center gap-12 pb-16 pt-32 lg:grid-cols-[1.15fr_0.85fr]">
@@ -29,10 +29,22 @@ export function Hero() {
           ) : null}
         </div>
         <div className="mt-10 flex flex-wrap gap-3 border-t border-white/10 pt-7">
-          {hero.credentials.map((credential) => (
-            <span key={credential} className="mono inline-flex items-center gap-2 rounded border border-white/10 bg-white/[0.025] px-3 py-2 text-xs text-[var(--text-muted)]">
-              <ShieldCheck aria-hidden="true" size={16} className="text-[var(--cyan)]" />
-              {credential}
+          {credentials.map((credential) => (
+            <span
+              key={credential.shortName}
+              className="mono inline-flex items-center gap-2 rounded border border-white/10 bg-white/[0.025] px-3 py-2 text-xs text-[var(--text-muted)]"
+            >
+              {credential.badgeSrc ? (
+                <img
+                  src={credential.badgeSrc}
+                  alt={`${credential.shortName} credential badge`}
+                  loading="lazy"
+                  width="20"
+                  height="20"
+                  className="h-5 w-5 shrink-0 rounded-sm object-contain"
+                />
+              ) : null}
+              {credential.shortName}
             </span>
           ))}
         </div>
