@@ -51,8 +51,7 @@ export const portfolio = {
     location: "New Delhi, India",
     email: "apoorvbandyopadhyay@gmail.com",
     linkedin: "https://www.linkedin.com/in/apoorv-bandyopadhyay-33169b121",
-    // TODO: Insert the final Fiverr Pro profile URL when it is available.
-    fiverr: "",
+    fiverr: "https://www.fiverr.com/s/vbQEaVZ",
     resumeUrl: "/resume/Apoorv_Bandyopadhyay_Fiverr_Pro_Resume.pdf",
     portrait: "/assets/profile-picture.webp"
   },
