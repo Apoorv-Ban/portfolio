@@ -1,8 +1,10 @@
+import { Analytics } from "@vercel/analytics/react";
 import { Contact } from "./components/sections/Contact";
 import { Credentials } from "./components/sections/Credentials";
 import { Expertise } from "./components/sections/Expertise";
 import { Hero } from "./components/sections/Hero";
 import { ProfessionalExperience } from "./components/sections/ProfessionalExperience";
+import { Projects } from "./components/sections/Projects";
 import { SectorExperience } from "./components/sections/SectorExperience";
 import { SelectedEngagements } from "./components/sections/SelectedEngagements";
 import { Footer } from "./components/layout/Footer";
@@ -35,10 +37,12 @@ function App() {
         <SectorExperience />
         <ProfessionalExperience />
         <SelectedEngagements />
+        <Projects />
         <Credentials />
         <Contact />
       </main>
       <Footer />
+      <Analytics />
     </>
   );
 }

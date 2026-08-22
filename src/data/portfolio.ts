@@ -35,6 +35,14 @@ export type Credential = {
   note?: string;
 };
 
+export type Project = {
+  name: string;
+  description: string;
+  url: string;
+  language?: string;
+  tags: string[];
+};
+
 export const portfolio = {
   person: {
     name: "Apoorv Bandyopadhyay",
@@ -52,6 +60,7 @@ export const portfolio = {
     { label: "Expertise", href: "#expertise" },
     { label: "Experience", href: "#experience" },
     { label: "Engagements", href: "#engagements" },
+    { label: "Projects", href: "#projects" },
     { label: "Credentials", href: "#credentials" },
     { label: "Contact", href: "#contact" }
   ] satisfies NavItem[],
@@ -241,6 +250,31 @@ export const portfolio = {
       tone: "gold"
     }
   ] satisfies Engagement[],
+  projects: [
+    {
+      name: "NMAP RED",
+      description:
+        "Cross-platform stealth Nmap evasion orchestrator for red team operators, automating scan-timing, decoy, and fragmentation techniques to reduce detection during reconnaissance.",
+      url: "https://github.com/Apoorv-Ban/nmap-red",
+      language: "Python",
+      tags: ["Red Teaming", "Reconnaissance", "Evasion"]
+    },
+    {
+      name: "Torget",
+      description:
+        "Command-line utility that searches and surfaces the best available torrent for a given title directly from the terminal, without ads, pop-ups, or tracking.",
+      url: "https://github.com/Apoorv-Ban/torget",
+      language: "Python",
+      tags: ["CLI", "Automation"]
+    },
+    {
+      name: "PNPT Prep Guide",
+      description:
+        "A structured preparation guide and cheat sheet for the Practical Network Penetration Tester (PNPT) certification, covering methodology, tooling, and exam strategy.",
+      url: "https://github.com/Apoorv-Ban/PNPT-Prep-Guide",
+      tags: ["Certification Prep", "Documentation", "Red Teaming"]
+    }
+  ] satisfies Project[],
   credentials: [
     {
       shortName: "CRTP",
