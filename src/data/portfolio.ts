@@ -112,9 +112,20 @@ export const portfolio = {
   ],
   experience: [
     {
+      title: "Senior Security Analyst",
+      company: "CyberSRC Consultancy Pvt. Ltd.",
+      period: "August 2026 - Present",
+      summary: [
+        "Leads enterprise red team engagements, simulating advanced adversary tactics across internal networks, identity infrastructure, and physical access controls.",
+        "Directs OT/ICS security assessments for critical infrastructure and manufacturing clients, evaluating industrial network architecture, segmentation, and device configuration risk.",
+        "Performs IoT and IIoT penetration testing to uncover firmware, protocol, and hardware-level vulnerabilities in connected industrial and enterprise devices.",
+        "Assesses Active Directory environments for privilege escalation paths, misconfigurations, and identity-based attack surface across enterprise engagements."
+      ]
+    },
+    {
       title: "Security Analyst",
       company: "CyberSRC Consultancy Pvt. Ltd.",
-      period: "August 2025 - Present",
+      period: "August 2025 - July 2026",
       summary: [
         "Leads a team of five cybersecurity professionals across VAPT, Red Teaming, OT/ICS, and IoT engagements.",
         "Executes physical and internal red team operations for BFSI and manufacturing-sector environments.",
